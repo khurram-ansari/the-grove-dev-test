@@ -9,17 +9,17 @@ const HomeExperiencesSection = () => {
     {
       title: 'Restaurants',
       // width: 34,
-      img: '/img/attraction_1.png',
+      img: '/img/attraction_2.png',
     },
     {
       title: 'Experiences',
       // width: 23,
-      img: '/img/attraction_2.png',
+      img: '/img/experience_2.png',
     },
     {
       title: 'Events',
       // width: 34,
-      img: '/img/attraction_3.png',
+      img: '/img/experience_3.png',
     },
   ];
   return (
