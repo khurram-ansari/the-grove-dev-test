@@ -28,7 +28,7 @@ const MenuMobile = ({ navItems }: { navItems: NavItem[] }) => {
         </Button>
       </DrawerTrigger>
       <DrawerContent
-        className="h-full rounded-none"
+        className="h-full rounded-none border-0"
         style={{ background: 'inherit' }}
       >
         <DrawerHeader className="my-5 flex items-end justify-between px-6 py-2">
