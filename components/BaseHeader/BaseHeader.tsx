@@ -23,7 +23,6 @@ const BaseHeader = () => {
       <div className="container flex items-center justify-between">
         <BrandLogo priority />
 
-        {/* social icons */}
         <div className="hidden items-center gap-8 lg:flex">
           <SocialIcons />
           <Button className="header_cta text-[0.9375rem] font-medium">
@@ -37,7 +36,6 @@ const BaseHeader = () => {
           <MenuMobile navItems={menuItems} />
         </div>
       </div>
-      {/* <HeaderSecondary/> */}
 
       {/* {desktop menu} */}
       <div className="hidden lg:block">
