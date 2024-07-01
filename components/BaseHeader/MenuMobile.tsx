@@ -23,9 +23,9 @@ const MenuMobile = ({ navItems }: { navItems: NavItem[] }) => {
   return (
     <Drawer direction={'right'} open={open} onOpenChange={setOpen}>
       <DrawerTrigger asChild>
-        <Button variant="ghost" size="icon" className="text-primary">
+        <div className="text-primary">
           <Menu size={40} strokeWidth={2} />
-        </Button>
+        </div>
       </DrawerTrigger>
       <DrawerContent
         className="h-full rounded-none border-0"
@@ -34,10 +34,8 @@ const MenuMobile = ({ navItems }: { navItems: NavItem[] }) => {
         <DrawerHeader className="my-5 flex items-end justify-between px-6 py-2">
           <BrandLogo />
 
-          <DrawerClose>
-            <Button className="text-primary" variant={'ghost'} size={'icon'}>
-              <X size={36} strokeWidth={3} />
-            </Button>
+          <DrawerClose className="text-primary">
+            <X size={36} strokeWidth={3} />
           </DrawerClose>
         </DrawerHeader>
 
